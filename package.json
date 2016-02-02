@@ -1,6 +1,6 @@
 {
   "name": "node-jekyll",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Node Jekyll is a port of Jekyll to Node.js.",
   "keywords": [
     "blacksmith",
@@ -22,9 +22,13 @@
     "name": "Wade Burelbach",
     "url": "https://github.com/Fafnirical"
   },
+  "main": "index.js",
   "repository": "Fafnirical/node-jekyll",
   "scripts": {
-    "lint": "node ./node_modules/eslint/bin/eslint *.js **/*.js --config .eslintrc"
+    "lint": "node node_modules/eslint/bin/eslint *.js **/*.js --config .eslintrc"
+  },
+  "dependencies": {
+    "commander": "~2.9.0"
   },
   "devDependencies": {
     "eslint": "~1.10.3",
