@@ -1,0 +1,33 @@
+{
+  "name": "node-jekyll",
+  "version": "0.0.0",
+  "description": "Node Jekyll is a port of Jekyll to Node.js.",
+  "keywords": [
+    "blacksmith",
+    "blog",
+    "file",
+    "generator",
+    "hexo",
+    "jekyll",
+    "mardkwon",
+    "metalsmith",
+    "static",
+    "website",
+    "wintersmith"
+  ],
+  "homepage": "https://github.com/Fafnirical/node-jekyll#readme",
+  "bugs": "https://github.com/Fafnirical/node-jekyll/issues",
+  "license": "MPL-2.0",
+  "author": {
+    "name": "Wade Burelbach",
+    "url": "https://github.com/Fafnirical"
+  },
+  "repository": "Fafnirical/node-jekyll",
+  "scripts": {
+    "lint": "node ./node_modules/eslint/bin/eslint *.js **/*.js --config .eslintrc"
+  },
+  "devDependencies": {
+    "eslint": "~1.10.3",
+    "eslint-config-airbnb": "~4.0.0"
+  }
+}
