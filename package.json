@@ -22,7 +22,7 @@
     "name": "Wade Burelbach",
     "url": "https://github.com/Fafnirical"
   },
-  "main": "index.js",
+  "main": "node-jekyll.js",
   "repository": "Fafnirical/node-jekyll",
   "scripts": {
     "lint": "node node_modules/eslint/bin/eslint *.js **/*.js --config .eslintrc"
