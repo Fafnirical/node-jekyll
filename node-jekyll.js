@@ -1,13 +1,9 @@
 #!/usr/bin/env node --harmony
+'use strict';
 
 const program = require('commander');
 
 program
   .version('0.0.1')
-  .command('new <PATH>')
-  .description('Creates a new node-jekyll site scaffold in PATH')
-  .action((path) => {
-    console.log(`path is ${path}`);
-  });
-
-program.parse(process.argv);
+  .command('new <PATH>', 'Creates a new node-jekyll site scaffold in PATH')
+  .parse(process.argv);
